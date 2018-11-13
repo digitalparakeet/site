@@ -28,7 +28,7 @@ timezone: Europe/London
 
 # Build settings
 markdown: kramdown
-theme: spectral_jekyll_theme
+# theme: spectral_jekyll_theme
 # remote_theme: arkadianriver/spectral
 # plugins:
 #  - jekyll-feed
