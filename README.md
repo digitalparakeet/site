@@ -1,4 +1,4 @@
-# Digital Parakeet Site
+# Digital Parakeet Site :bird:
 
 ## Development
 
