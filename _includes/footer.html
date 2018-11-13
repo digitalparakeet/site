@@ -1,18 +1,5 @@
 <!-- Footer -->
 <footer id="footer">
-  <ul class="icons">
-    {% for socloc in site.social %}
-    {% if socloc[1] %}
-    {% if socloc[0] == 'email' %}
-    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope-o"
-           ><span class="label">E-mail</span></a></li>
-    {% else %}
-    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}"
-           ><span class="label">{{ socloc[0] }}</span></a></li>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-  </ul>
   <ul class="copyright">
     <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
     {% if site.first_published %}
@@ -23,5 +10,8 @@
     {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
     <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
     <li>Tel: <a href="tel:{{ site.tel | replace:'0','+44' | remove: ' ' }}">{{ site.tel }}</a></li>
+  </ul>
+  <ul class="copyright">
+    <li>Registered UK Company No. {{ site.company_no }}</li>
   </ul>
 </footer>
