@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Digital Parakeet
-email: hello@digitalparakeet.com
+email: luisa@digitalparakeet.co.uk
 contact_form_email: jame.eastabrook@gmail.com
 company_no: 11663394
 tel: 07912 582 581
