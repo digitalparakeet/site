@@ -12,6 +12,12 @@ description:
 order: 2
 ---
 
+## This session is for you if:
+- You are looking to introduce the benefits of using LinkedIn to larger numbers of people
+- Your audience is a large gathering of different departments and teams
+- You want to encourage your people to become more socially engaged
+- We can tailor the session for different levels of LinkedIn confidence
+
 ## We will focus on...
 
 - How to write a killer headline and super summary 

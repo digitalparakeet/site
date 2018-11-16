@@ -12,6 +12,12 @@ description:
 order: 1
 ---
 
+## For you if you:
+- Have a smaller team of 5-10 people
+- Want to empower your people to amplify your brand
+- Prefer a face-to-face workshop experience
+- Great for marketing, HR and leadership teams
+
 ## This face-to-face workshop will show you how to... 
 - Improve your profile
 - Give you ideas about how to use the platform to 

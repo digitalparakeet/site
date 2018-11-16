@@ -11,6 +11,11 @@ description:
 order: 3
 ---
 
+## This package is for you if:
+- Your team members need 121 support on their LinkedIn profile
+- You have brand ambassadors or spokespeople you want to be more active in championing your business
+- We can rewrite, edit and add sections, or produce an entire profile depending on requirements.
+
 From a leadership team to individuals within the team, this can be extremely effective in building presence on LinkedIn and raising the company and individual’s digital profile. Great for executive teams, senior leaders and brand ambassadors.
 
 ## What we offer
