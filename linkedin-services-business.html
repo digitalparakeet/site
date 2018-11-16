@@ -1,0 +1,54 @@
+---
+layout: default
+title: Business and team LinkedIn solutions
+permalink: /linkedin-services/business
+exclude: true
+---
+
+<div id="main">
+  <header>
+    <h2>{{ page.title }}</h2>
+  </header>
+</div>
+
+<section id="three" class="wrapper style5">
+  <div class="inner">
+    <header class="major">
+      <p>With a specialism and background in this platform we can offer a full service on LinkedIn from marketing solutions to talent solutions, as well as training on using LinkedIn both as brand and as an individual.</p>
+      <p>Here are just some of the objectives we can help you with...</p>
+      <ul>
+        <li>Driving more business leads</li>
+        <li>Brand awareness</li>
+        <li>Thought leadership</li>
+        <li>Influencer marketing</li>
+        <li>Talent branding / employee value proposition content</li>
+        <li>LinkedIn company page set up</li>
+        <li>Employee advocacy</li>
+        <li>Profile enhancement for team</li>
+      </ul>
+      <p>We offer a range of packages, as well as consultancy options.</p>
+      <p>For any of the above, we recommend a call or meeting first so we can truly understand your goals. You don’t need to know everything (or even anything!) about LinkedIn - just help us learn about your needs so we can help you meet your business objectives. We can then recommend a package or our consultancy approach.</p>
+      <p>Here’s some of the packages we can offer. If you don’t see exactly what you need here, <a href="{{ "/contact" | prepend: site.baseurl }}">contact us</a></a> with your requirements and we’ll build a solution for you.</p>
+    </header>
+
+    {% assign services = site.linkedin_business_services | sort: 'order' %}
+    {% for service in services %}
+    <hr>
+    <header>
+      <h4>{{ service.title }}</h4>
+      <p>{{ service.intro }}</p>
+    </header>
+    <p>{{ service.description.heading }}</p>
+    {% if service.description.list %}
+    <ul>
+      {% for item in service.description.list %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <a href="{{ service.url | prepend: site.baseurl }}" class="button">Find out more</a>
+    {% endfor %}
+  </div>
+</section>
+
+{% include contact.html %}

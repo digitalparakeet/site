@@ -10,9 +10,11 @@
             <li><a href="{{ site.baseurl }}/">Home</a></li>
             {% assign sorted_pages = site.pages | sort:"order" %}
             {% for my_page in sorted_pages %}
+            {% unless my_page.exclude %}
             {% if my_page.title %}
-            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{my_page.title}}</a></li>
+            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{% if my_page.navtitle %}{{my_page.navtitle}}{% else %}{{my_page.title}}{% endif %}</a></li>
             {% endif %}
+            {% endunless %}
             {% endfor %}
           </ul>
         </div>

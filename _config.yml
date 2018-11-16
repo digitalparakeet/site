@@ -26,6 +26,14 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # github_username:  jekyll
 timezone: Europe/London
 
+collections:
+  linkedin_business_services:
+    output: true
+    permalink: /linkedin-services/business/:title
+  linkedin_individual_services:
+    output: true
+    permalink: /linkedin-services/individual/:title
+
 # Build settings
 markdown: kramdown
 # theme: spectral_jekyll_theme
