@@ -1,5 +1,3 @@
 # Local configuration only.
 baseurl: "" # the subpath of your site, e.g. /blog
-google:
-  tag_manager:
-    container_id: GTM-XXXXXXX
+gtm: GTM-XXXXXXX

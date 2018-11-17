@@ -25,9 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 timezone: Europe/London
-google:
-  tag_manager:
-    container_id: GTM-TFF2TCC
+gtm: GTM-TFF2TCC
 
 # Collections
 collections:
