@@ -1,7 +1,7 @@
 ---
 layout: service
 title: LinkedIn rock your profile sessions
-intro: For 10 - 100 attendees £495 1.5 hour training session (plus prep to tailor to your needs)
+intro: For 10 - 100 attendees from £495 1.5 hour training session (plus prep to tailor to your needs)
 description:
   heading: "This session is for you if:"
   list:
