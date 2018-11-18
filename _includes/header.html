@@ -3,7 +3,17 @@
   <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
   <nav id="nav">
     <ul>
-      <li class="special">
+      <li><a href="{{ site.baseurl }}/">Home</a></li>
+      {% assign sorted_pages = site.pages | sort:"order" %}
+      {% for my_page in sorted_pages %}
+      {% unless my_page.exclude %}
+      {% if my_page.title %}
+      <li><a href="{{ my_page.url | prepend: site.baseurl }}">{% if my_page.navtitle %}{{my_page.navtitle}}{% else %}{{my_page.title}}{% endif %}</a></li>
+      {% endif %}
+      {% endunless %}
+      {% endfor %}
+
+      <li class="hamburger special">
         <a href="#menu" aria-label="Menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
           <ul>
