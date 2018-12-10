@@ -13,7 +13,7 @@
         <a class="subnav" href="{{ my_page.url | prepend: site.baseurl }}">{% if my_page.navtitle %}{{my_page.navtitle}}{% else %}{{my_page.title}}{% endif %}</a>
         <ul class="dropdown">
           <li><a href="{{ "/linkedin-services/business" | prepend: site.baseurl }}">Business</a></li>
-          <li><a href="{{ "/linkedin-services/individual" | prepend: site.baseurl }}">individual</a></li>
+          <li><a href="{{ "/linkedin-services/individual" | prepend: site.baseurl }}">Individual</a></li>
         </ul>
         {% else %}
         <a href="{{ my_page.url | prepend: site.baseurl }}">{% if my_page.navtitle %}{{my_page.navtitle}}{% else %}{{my_page.title}}{% endif %}</a>
