@@ -1,7 +1,7 @@
 ---
 layout: service
 title: Profile makeover
-intro: From £120
+intro: From £150
 order: 1
 ---
 
